@@ -12,46 +12,44 @@
     </div>
   </template>
   
-  <style lang="scss" scoped>
-  $header-bg-color: #227fbd;
-  $header-text-color: #fff;
-  $header-padding: 25px;
-  $header-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  $header-link-color: #fff;
-  $header-link-hover-color: #ffeb3b;
-  
-  .header {
-    background-color: $header-bg-color;
-    color: $header-text-color;
-    padding: $header-padding;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: $header-font-family;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .menu,
-  .auth {
-    display: flex;
-  }
-  
-  .nav-link {
-    color: $header-link-color;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    transition: all 0.3s;
-  
-    &:hover {
-      color: $header-link-hover-color;
-      transform: scale(1.1);
-    }
-  }
-  </style>
+  <style scoped>
+.header {
+  background-color: #227fbd;
+  color: #fff;
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Устанавливаем z-index, чтобы меню находилось выше остального контента */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu,
+.auth {
+  display: flex;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffeb3b;
+  transform: scale(1.1);
+}
+</style>
   
