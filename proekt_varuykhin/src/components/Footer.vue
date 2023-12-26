@@ -1,8 +1,8 @@
 <template>
     <div class="footer">
       <div class="left">
+        <div class="adres">Адрес: улица Пушкина дом колотушкина 7</div>
         <div class="phone">Телефон: 89117377701</div>
-        <div class="name">ФИО: Варюхин Данил Валерьевич</div>
       </div>
       <div class="right">
         <div class="social">
@@ -44,7 +44,7 @@
   }
   
   .phone {
-    margin-bottom: 10px;
+    margin-top: 10px;
   }
   
   .right {
