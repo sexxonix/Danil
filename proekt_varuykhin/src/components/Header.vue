@@ -15,7 +15,7 @@
   <style lang="scss" scoped>
   $header-bg-color: #227fbd;
   $header-text-color: #fff;
-  $header-padding: 30px;
+  $header-padding: 25px;
   $header-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   $header-link-color: #fff;
   $header-link-hover-color: #ffeb3b;
