@@ -12,7 +12,7 @@
     </div>
   </template>
   
-  <style scoped>
+  <style scoped lang="scss">
 .header {
   background-color: #227fbd;
   color: #fff;
@@ -26,7 +26,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* Устанавливаем z-index, чтобы меню находилось выше остального контента */
+  z-index: 1000;
 }
 
 .logo {
@@ -45,11 +45,11 @@
   margin: 0 15px;
   font-size: 18px;
   transition: all 0.3s;
-}
 
-.nav-link:hover {
-  color: #ffeb3b;
-  transform: scale(1.1);
+  &:hover {
+    color: #ffeb3b;
+    transform: scale(1.1);
+  }
 }
 </style>
   

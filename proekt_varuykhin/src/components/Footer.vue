@@ -32,7 +32,7 @@
     align-items: center;
     background-color: #227fbd; /* Голубой цвет */
     color: #fff; /* Белый цвет текста */
-    padding: 22px;
+    padding: 18px;
   }
   
   .left {

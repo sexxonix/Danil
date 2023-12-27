@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .register-container {
   display: flex;
   justify-content: center;
@@ -92,14 +92,14 @@ input {
 
 .password-input {
   position: relative;
-}
 
-.toggle-password {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  cursor: pointer;
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
 }
 
 button {
@@ -109,9 +109,10 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
 
-button:hover {
-  background-color: #227fbd;
+  &:hover {
+    background-color: #227fbd;
+  }
 }
 </style>
+

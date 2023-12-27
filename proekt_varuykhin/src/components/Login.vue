@@ -43,7 +43,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .login-container {
   display: flex;
   justify-content: center;
@@ -63,7 +63,7 @@ export default {
 form {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Добавлен отступ между элементами внутри формы */
+  gap: 15px; 
 }
 
 label {
@@ -77,14 +77,14 @@ input {
 
 .password-input {
   position: relative;
-}
 
-.password-input span {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  cursor: pointer;
+  span {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
 }
 
 button {
@@ -94,24 +94,25 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
 
-button:hover {
-  background-color: #227fbd;
+  &:hover {
+    background-color: #227fbd;
+  }
 }
 
 .forgot-password {
   margin-top: 10px;
   text-align: center;
-}
 
-.forgot-password a {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
+  a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
 
-.forgot-password a:hover {
-  text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 </style>
+
