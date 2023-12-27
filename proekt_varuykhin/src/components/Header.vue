@@ -16,7 +16,7 @@
 .header {
   background-color: #227fbd;
   color: #fff;
-  padding: 30px;
+  padding: 25px;
   margin: 0;
   display: flex;
   justify-content: space-between;
