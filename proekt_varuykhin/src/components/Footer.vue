@@ -26,7 +26,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 97%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     align-items: center;

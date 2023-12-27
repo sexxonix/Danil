@@ -47,6 +47,8 @@ export default {
 }
 
 .center-text {
+  margin-top: 70px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -78,9 +80,5 @@ export default {
   color: #227fbd;
   text-decoration: none;
   font-weight: bold;
-}
-.center-text{
-  margin-bottom: 25px;
-  margin-top: 80px;
 }
 </style>
